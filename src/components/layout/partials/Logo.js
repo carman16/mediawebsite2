@@ -24,7 +24,8 @@ const Logo = ({
             src={require('./../../../assets/images/logo.svg')}
             alt="Open"
             width={32}
-            height={32} />
+            height={32}
+            color="#FFFFFF" />
         </Link>
       </h1>
     </div>

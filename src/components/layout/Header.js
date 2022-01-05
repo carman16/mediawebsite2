@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import Video from './../../assets/images/drip1.webm'
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -98,6 +99,7 @@ const Header = ({
                   <span className="hamburger-inner"></span>
                 </span>
               </button>
+              
               <nav
                 ref={nav}
                 className={
@@ -105,6 +107,7 @@ const Header = ({
                     'header-nav',
                     isActive && 'is-active'
                   )}>
+                    
                 <div className="header-nav-inner">
                   <ul className={
                     classNames(
@@ -122,10 +125,25 @@ const Header = ({
                       </li>
                     </ul>}
                 </div>
+                
               </nav>
             </>}
+            
         </div>
       </div>
+      <div className="illustration-section responsive-video video-opacity" data-reveal-value="20px" data-reveal-delay="800">
+            
+            <video
+              autoPlay
+              loop
+              muted
+              className="video "
+              src={Video}
+              type='video/webm'
+            />
+        </div>
+          
+  
     </header>
   );
 }

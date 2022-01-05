@@ -51,7 +51,6 @@ const SectionHeader = ({
               <p className="m-0">{data.paragraph}</p>
             }
           </div>
-          
         </div>
       }
     </>

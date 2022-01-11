@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'AR & 3D Experiences Anywhere',
+    //paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
   };
 
   return (
@@ -67,13 +67,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  3D Model Creation
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Digital Products
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Traditional photography and large-scale photoshoots have never fully captured products straightforwardly and cost-effectively. By digitizing your portfolio, you can provide an enhanced shopping experience for your customers while cutting your bottom line. levAR will transform your products into a powerful digital model using only a few product photos and dimensions. 
                   </p>
               </div>
               <div className={
@@ -82,8 +82,11 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                <video
+                  autoPlay
+                  muted
+                  type='video/webm'
+                  src={require('./../../assets/images/headphone1.webm')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,13 +96,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Dynamic Experiences
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Share Anywhere
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Take your digitized products beyond their product pages. Whether you want to share the 3D experience in a social platform, create an AR filter to enhance your brand, include the 3D activation in email, or SMS, levAR has you covered. Utilize your enhanced 3D content wherever your products live and more.
                   </p>
               </div>
               <div className={
@@ -109,7 +112,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/speakerbase.gif')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -119,13 +122,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Lifecycle Management
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  You're In Control
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  levAR's Custom 3D Pipeline ensures your products work on all the platforms your customers use well into the future. We'll work with you to create a product experience that engages and delights your customers. 
                   </p>
               </div>
               <div className={
@@ -135,7 +138,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/dboard.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
